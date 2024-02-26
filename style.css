@@ -1,0 +1,113 @@
+.protofolm{
+    padding: 60px ;
+}
+
+.card{
+    border: 0px;
+    margin-top: 40px;
+}
+
+.card-body-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card:hover img{
+    transform: scale(1.5,1.5);
+}
+
+.card img{
+    transition:transform 1s ease-in-out;
+
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.box-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.curson-bard{
+    background: url(imgs/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.curson-lear{
+    background-color: rgba(0.0, 0.0, 225,0.6);
+    height: 100vh;
+}
+
+.carousel-indicators{
+    top: 100%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.carousel {
+    position: relative;
+    padding-top: 100px;
+}
+
+.content p{
+    padding-bottom:40px;
+}
+
+/* start Blog */
+.main-title::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background-color: #0d6fed;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.blog .img a{
+    color:#fff;
+    left:36%;
+    bottom:9px;
+    padding:3px 20px;
+}
+/* End Blog */
+/* Start row */
+h4{
+    padding-bottom: 50px;
+}
+
+a{
+    align-items: center;
+    left:35%;
+}
+
+.row-width{
+    width: 80%;
+}
+/* End row */
+/* Start message */
+.message::after{
+    content: "";
+    width: 20%;
+    height: 3px;
+    border:2px solid #0d6fed;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+/* End message */
+
+/* icon */
+.paragraph-icon svg{
+    color: #0d6fed;
+}
